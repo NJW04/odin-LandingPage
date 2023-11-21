@@ -73,17 +73,22 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 8px;
 }
 
 .hero-secondary{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 8px;
 
 }
 
 .hero-button{
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 16px;
+    width: 100px;
+    height: 32px;
+    color: #E5E7EB;
 }
 
 img{
@@ -140,3 +145,36 @@ img{
     align-self: flex-end;
   }
 
+
+.sign-up{
+    padding: 50px;
+  }
+
+.sign-up .sign-up-container{
+    background: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-radius: 16px;
+}
+.sign-up-container button{
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.footer{
+    background: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.footer .copyright-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 8px;
+}
