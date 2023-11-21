@@ -138,11 +138,13 @@ img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 40px;
     
   }
 
   .quote-container .quotee{
     align-self: flex-end;
+
   }
 
 
